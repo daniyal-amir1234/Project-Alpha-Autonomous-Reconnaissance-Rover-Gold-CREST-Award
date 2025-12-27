@@ -10,11 +10,10 @@ In a multidisciplinary team of 7 engineers, computer scientists and physicists, 
 
 ## Features
 - Real-time object detection (TensorFlow Lite Task Library)
-- Webcam / Pi camera capture (OpenCV)
-- FPS counter overlay (matches recovered screenshot structure)
+- Webcam and Pi camera capture (OpenCV)
 - Optional pan/tilt tracking interface (GPIO stepper control stubbed + mock driver)
 
-## Project Goals
+## Our Project Goals
 - Reduce human risk in dangerous environments by enabling remote reconnaissance.
 - Perform on-device AI inference on low-power hardware.
 - Track detected objects using a motorised pan/tilt turret.
@@ -55,8 +54,8 @@ Fire sentry turret (not actually created)
 - Raspberry Pi
 - USB Webcam
 - Stepper motors (pan + tilt)
-- Stepper motor drivers (e.g. A4988 / DRV8825)
-- Rover chassis (rocker-bogie inspired)
+- Stepper motor drivers
+- Rover chassis
 
 ## Repository Structure
 ```
@@ -85,7 +84,7 @@ project-alpha-sentry-rover/
 └─ README.md
 ```
 
-## Quick start (Laptop / Desktop)
+## Running It
 ```
 python -m venv .venv
 source .venv/bin/activate  # if you have Windows, do: .venv\Scripts\activate
