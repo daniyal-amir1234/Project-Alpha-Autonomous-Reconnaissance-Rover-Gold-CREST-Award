@@ -36,9 +36,9 @@ Pan/Tilt Controller (Stepper Motors)
     ↓
 Fire sentry turret (not actually created)
 
--Raspberry Pi acts as the central compute unit
+- Raspberry Pi acts as the central compute unit
 - USB webcam provides live RGB video
--TensorFlow Lite Task Library performs object detection
+- TensorFlow Lite Task Library performs object detection
 - OpenCV handles image capture, colour conversion, and visualisation
 - Stepper motors drive the sentry turret via GPIO
 - FPS monitoring ensures real-time performance visibility
