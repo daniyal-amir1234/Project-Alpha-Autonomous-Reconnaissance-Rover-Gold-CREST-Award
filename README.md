@@ -21,6 +21,7 @@ In a multidisciplinary team of 7 engineers, computer scientists and physicists, 
 - Formally document this process in a professionally written technical portfolio and report.
 
 ## System Architecture
+```
 USB Webcam
     ↓
 OpenCV Video Capture
@@ -34,7 +35,7 @@ Target Selection Logic
 Pan/Tilt Controller (Stepper Motors)
     ↓
 Fire sentry turret (not actually created)
-
+```
 - Raspberry Pi acts as the central compute unit
 - USB webcam provides live RGB video
 - TensorFlow Lite Task Library performs object detection
