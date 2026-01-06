@@ -1,6 +1,0 @@
-opencv-python>=4.8
-numpy>=1.23
-tflite-support>=0.4.4
-
-# Only needed if you enable GPIO control:
-RPi.GPIO>=0.7.1; platform_machine=="armv7l" or platform_machine=="aarch64"
